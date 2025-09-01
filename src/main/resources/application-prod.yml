@@ -1,0 +1,47 @@
+server:
+  port: 8080
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+  application:
+    name: be16-ordersystem
+
+  redis:
+    host: xxxxxxxxx
+    port: 6379
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://xxxxxxx:3309/ordersystem
+    username: xxxxx
+    password: yyyyy
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MariaDBDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    show_sql: true
+  servlet:
+    multipart:
+      # spring의 디폴트 사이즈 10MB
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+
+# aws s3 접근 설정
+cloud:
+  aws:
+    credentials:
+      access-key: xx
+      secret-key: yy
+    region:
+      static: ap-northeast-2
+  s3:
+    bucket: crongs-order
+
+jwt:
+  expirationAt: 1000
+  secretKeyAt: xxxxx
+  expirationRt: 10000
+  secretKeyRt: yyyyy

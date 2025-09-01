@@ -1,0 +1,182 @@
+2025-08-220 16:22 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-220 16:22 b.ordersystem.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 2680 (C:\Users\Playdata\Desktop\SW_Camp\ordersystem\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\SW_Camp\ordersystem)
+2025-08-220 16:22 b.ordersystem.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 342 ms. Found 4 JPA repository interfaces.
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.odering.repository.OrderDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.odering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:22 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2025-08-220 16:22 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-220 16:22 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-220 16:22 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-220 16:22 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-220 16:22 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-220 16:22 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 4778 ms
+2025-08-220 16:22 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-220 16:22 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-220 16:22 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-220 16:22 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-220 16:22 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-220 16:22 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2f60e66a
+2025-08-220 16:22 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-220 16:22 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-220 16:22 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.7.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-220 16:22 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-220 16:22 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-220 16:22 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-220 16:22 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: b990808e-c8f0-44c0-bc20-af3028db71fd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-220 16:22 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-220 16:22 o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry-One of the patterns in [/member/create, /member/login, member/refresh-at, product/list, /v3/api-docs/**, /swagger-ui/**, /swagger-ui.html] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-08-220 16:22 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-220 16:22 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-220 16:22 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-220 16:22 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#298f7b0a:0/SimpleConnection@4d2bac23 [delegate=amqp://guest@127.0.0.1:5672/, localPort=60752]
+2025-08-220 16:22 b.ordersystem.OrdersystemApplication-Started OrdersystemApplication in 18.64 seconds (process running for 24.07)
+2025-08-220 16:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-220 16:29 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-220 16:29 o.s.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2025-08-220 16:29 b.o.c.service.CommonExceptionHandler-이미 가입된 회원입니다.
+2025-08-220 16:43 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto): [Field error in object 'memberCreateDto' on field 'password': rejected value [123]; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] 
+2025-08-220 16:44 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto): [Field error in object 'memberCreateDto' on field 'password': rejected value [123]; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] 
+2025-08-220 16:45 b.o.c.service.CommonExceptionHandler-이미 가입된 회원입니다.
+2025-08-220 16:46 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto) with 3 errors: [Field error in object 'memberCreateDto' on field 'email': rejected value []; codes [NotEmpty.memberCreateDto.email,NotEmpty.email,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.email,email]; arguments []; default message [email]]; default message [이메일을을 입력해 주세요.]] [Field error in object 'memberCreateDto' on field 'password': rejected value []; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] [Field error in object 'memberCreateDto' on field 'password': rejected value []; codes [NotEmpty.memberCreateDto.password,NotEmpty.password,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password]]; default message [비밀번호를 입력해 주세요.]] 
+2025-08-220 16:46 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto): [Field error in object 'memberCreateDto' on field 'password': rejected value [asdasd]; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] 
+2025-08-220 16:46 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto) with 2 errors: [Field error in object 'memberCreateDto' on field 'password': rejected value []; codes [NotEmpty.memberCreateDto.password,NotEmpty.password,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password]]; default message [비밀번호를 입력해 주세요.]] [Field error in object 'memberCreateDto' on field 'password': rejected value []; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] 
+2025-08-220 16:46 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto): [Field error in object 'memberCreateDto' on field 'password': rejected value [sdf]; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] 
+2025-08-220 16:47 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto) with 4 errors: [Field error in object 'memberCreateDto' on field 'password': rejected value []; codes [NotEmpty.memberCreateDto.password,NotEmpty.password,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password]]; default message [비밀번호를 입력해 주세요.]] [Field error in object 'memberCreateDto' on field 'email': rejected value []; codes [NotEmpty.memberCreateDto.email,NotEmpty.email,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.email,email]; arguments []; default message [email]]; default message [이메일을을 입력해 주세요.]] [Field error in object 'memberCreateDto' on field 'name': rejected value []; codes [NotEmpty.memberCreateDto.name,NotEmpty.name,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.name,name]; arguments []; default message [name]]; default message [이름을 입력해 주세요.]] [Field error in object 'memberCreateDto' on field 'password': rejected value []; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] 
+2025-08-220 16:47 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto) with 3 errors: [Field error in object 'memberCreateDto' on field 'password': rejected value []; codes [NotEmpty.memberCreateDto.password,NotEmpty.password,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password]]; default message [비밀번호를 입력해 주세요.]] [Field error in object 'memberCreateDto' on field 'email': rejected value []; codes [NotEmpty.memberCreateDto.email,NotEmpty.email,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.email,email]; arguments []; default message [email]]; default message [이메일을을 입력해 주세요.]] [Field error in object 'memberCreateDto' on field 'password': rejected value []; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] 
+2025-08-220 16:47 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto) with 2 errors: [Field error in object 'memberCreateDto' on field 'email': rejected value []; codes [NotEmpty.memberCreateDto.email,NotEmpty.email,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.email,email]; arguments []; default message [email]]; default message [이메일을을 입력해 주세요.]] [Field error in object 'memberCreateDto' on field 'password': rejected value [asdf]; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] 
+2025-08-220 16:47 b.o.c.service.CommonExceptionHandler-Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> be16.ordersystem.member.controller.MemberController.memberJoin(be16.ordersystem.member.dto.MemberCreateDto): [Field error in object 'memberCreateDto' on field 'password': rejected value [asdf]; codes [Size.memberCreateDto.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberCreateDto.password,password]; arguments []; default message [password],2147483647,8]; default message [비밀번호가 너무 짧습니다.]] 
+2025-08-220 16:51 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-220 16:51 b.ordersystem.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 9776 (C:\Users\Playdata\Desktop\SW_Camp\ordersystem\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\SW_Camp\ordersystem)
+2025-08-220 16:51 b.ordersystem.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 569 ms. Found 4 JPA repository interfaces.
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.odering.repository.OrderDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.odering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 16:51 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+2025-08-220 16:51 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-220 16:51 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-220 16:51 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-220 16:51 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-220 16:51 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-220 16:51 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 5077 ms
+2025-08-220 16:51 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-220 16:51 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-220 16:51 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-220 16:51 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-220 16:51 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-220 16:51 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@61becbcf
+2025-08-220 16:51 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-220 16:51 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-220 16:51 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.7.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-220 16:51 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-220 16:51 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-220 16:51 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-220 16:51 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 05f06828-daaa-45b1-a9db-b50fc11797e8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-220 16:51 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-220 16:51 o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry-One of the patterns in [/member/create, /member/login, member/refresh-at, product/list, /v3/api-docs/**, /swagger-ui/**, /swagger-ui.html] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-08-220 16:51 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-220 16:51 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-220 16:51 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-220 16:51 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#57bc7f67:0/SimpleConnection@5c7df5f1 [delegate=amqp://guest@127.0.0.1:5672/, localPort=61885]
+2025-08-220 16:51 b.ordersystem.OrdersystemApplication-Started OrdersystemApplication in 15.968 seconds (process running for 17.269)
+2025-08-220 16:53 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-220 16:53 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-220 16:53 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-08-220 16:53 b.o.c.auth.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-220 16:54 b.o.c.auth.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-220 16:54 b.o.c.auth.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-220 16:55 b.o.c.auth.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-220 17:01 b.o.c.auth.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-220 17:01 b.o.c.auth.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-220 17:02 b.o.c.auth.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-220 17:02 b.o.c.auth.JwtAuthenticationHandler-Full authentication is required to access this resource
+2025-08-220 17:03 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-220 17:03 b.ordersystem.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 3496 (C:\Users\Playdata\Desktop\SW_Camp\ordersystem\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\SW_Camp\ordersystem)
+2025-08-220 17:03 b.ordersystem.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 184 ms. Found 4 JPA repository interfaces.
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.odering.repository.OrderDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.odering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface be16.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-220 17:03 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2025-08-220 17:03 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-220 17:03 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-220 17:03 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-220 17:03 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-220 17:03 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-220 17:03 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 2509 ms
+2025-08-220 17:03 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-220 17:03 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-220 17:03 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-220 17:03 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-220 17:03 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-220 17:03 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@418d1c03
+2025-08-220 17:03 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-220 17:03 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-220 17:03 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.7.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-220 17:03 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-220 17:03 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-220 17:03 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-220 17:03 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 8b0a9892-c21a-4b95-9f93-0378c82c4202
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-220 17:03 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-220 17:03 o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry-One of the patterns in [/member/create, /member/dologin, member/refresh-at, product/list, /v3/api-docs/**, /swagger-ui/**, /swagger-ui.html] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-08-220 17:03 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-220 17:03 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-220 17:03 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-220 17:03 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#2da7ef3e:0/SimpleConnection@78c7a736 [delegate=amqp://guest@127.0.0.1:5672/, localPort=62362]
+2025-08-220 17:03 b.ordersystem.OrdersystemApplication-Started OrdersystemApplication in 8.038 seconds (process running for 8.637)
+2025-08-220 17:04 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-220 17:04 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-220 17:04 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
