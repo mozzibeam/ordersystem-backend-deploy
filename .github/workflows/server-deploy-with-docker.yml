@@ -44,4 +44,4 @@ jobs:
           -e JWT_SECRETKEYRT=${{ secrets.RT_SECRET_KEY }} \
           -e SPRING_DATASOURCE_URL=jdbc:mariadb://${{ secrets.DB_HOST }}:3306/ordersystem \
           -e SPRING_DATASOURCE_USERNAME=admin \
-          -e SPRING_DATASOURCE_PASSWORD=${{ secrets.DB_PW }} kimseonguk/ordersystem:latest
+          -e SPRING_DATASOURCE_PASSWORD=${{ secrets.DB_PW }} donggil401/ordersystem:latest
