@@ -44,4 +44,4 @@ jobs:
 
           sudo docker pull donggil401/ordersystem:latest
 
-          sudo docker-compose up -d --force recreate myordersystem 
+          sudo docker-compose up -d --force-recreate myordersystem 
